@@ -1,0 +1,14 @@
+[build]
+  base = "client"        
+  publish = "dist"       
+  command = "npm run build"  
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "text/javascript"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Content-Type = "text/css"
