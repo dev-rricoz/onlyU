@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import { FaFacebook, FaInstagram, FaWhatsapp, FaYoutube, FaEnvelope } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+// import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   const whatsappNumber = "573013256597";
@@ -32,10 +32,16 @@ const Footer = () => {
           <FaEnvelope />
         </a>
       </div>
-      <p className={styles.footerText}>www.hotelonlyou.com <br /><span style={{fontSize: "0.8em"}}>2024</span> </p>
+      <div>
+      <p className={styles.footerText}>Hotel Only You<br /><span style={{fontSize: "0.8em"}}> San Sebastian de Buenavista - Magdalena <br />Calle 3 KR 5-48 Apto 101
+      </span></p>
+      </div>
+      
       <a className={styles.designby} href='https://www.linkedin.com/in/ricardo-ricoz/' target="_blank">design by rricozdev</a>
     </footer>
   );
 };
 
 export default Footer;
+
+

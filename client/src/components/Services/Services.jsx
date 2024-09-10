@@ -4,6 +4,7 @@ import { image_1, image_5, image_3, image_6, image_7, tick } from "./index.js";
 // import { FaWhatsapp } from "react-icons/fa";
 
 function Services() {
+  const whatsappNumber = "573013256597";
   return (
     <div className={style.Reasons} >
       <div className={style.left_reasons}>
@@ -45,7 +46,7 @@ function Services() {
           </div>
 
           <div>
-            <a className={style.btn} href="#">Contacto</a>
+            <a className={style.btn} href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noopener noreferrer">Contacto</a>
           </div>        
 
         </div>

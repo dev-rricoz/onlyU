@@ -9,17 +9,17 @@ function Cards() {
   // Mock de imagenes para el renderizado principal.
   const cards = [
     {
-      images: ["./i-image-1.jpg"],
+      images: ["./i-image-1.jpg", "i-image-10.jpg"],
       title: "Wi-Fi",
       text: "Wi-Fi de alta velocidad disponible en todo el hotel. Conexión segura para todos nuestros huéspedes. Acceso sencillo y confiable en cada habitación y áreas comunes.",
     },
     {
-      images: ["./i-image-2.jpg"],
+      images: ["./i-image-2.jpg", "i-image-11.jpg", "i-image-12.jpg"],
       title: "Atención VIP",
       text: "Desde el check-in hasta el check-out, nuestro personal está disponible para garantizar una estancia cómoda y agradable.",
     },
     {
-      images: ["./i-image-3.jpg", "./i-image-4.jpg", "./i-image-5.jpg"],
+      images: ["./i-image-3.jpg", "./i-image-8.jpg", "./i-image-5.jpg", "i-image-9.jpg"],
       title: "Habitaciones",
       text: "Experimenta el lujo y confort de nuestras recamaras , donde la combinación perfecta de tradición y modernidad te ofrece una estancia inolvidable.",
     },
